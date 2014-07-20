@@ -2,6 +2,7 @@ iOS Devices Manager
 =======
 
 <a href="http://badge.fury.io/rb/ios_devices_manager"><img src="https://badge.fury.io/rb/ios_devices_manager@2x.png" alt="Gem Version" height="18"></a>
+[![Build Status](https://travis-ci.org/thomasstephane/ios_devices_manager.svg?branch=master)](https://travis-ci.org/thomasstephane/ios_devices_manager)
 
 This package contains iOS Devices Manager, a library for getting your iOS devices location and send them massages and sound notifications.
 
