@@ -37,7 +37,7 @@ require 'ios_devices_manager'
 
 To start, load a new manager
 ```ruby
-my_manager = OSDevicesManager.new(username, password)
+my_manager = IOSDevices::Manager.new(username, password)
 ```
 
 To view your devices, call:
@@ -76,4 +76,3 @@ Feel free to
 ## Maintainer ##
 
 * [Stephane Thomas](https://github.com/thomasstephane) (2014, original author)
-
