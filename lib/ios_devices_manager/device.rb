@@ -7,7 +7,7 @@ class Device < OpenStruct
     super({
       id: params['id'],
       name: params['name'],
-      class: params['deviceClass'],
+      device_class: params['deviceClass'],
       display_name: params['deviceDisplayName'],
       model: params['deviceModel'],
       latitude: location ? location['latitude'] : nil,
