@@ -1,6 +1,6 @@
-describe Device do
+describe IOSDevices::Device do
 
-  let(:device) { Device.new({
+  let(:device) { IOSDevices::Device.new({
     'id' => 1,
     'name' => 'My device',
     'deviceClass' => 'iPhone',
