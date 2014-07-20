@@ -1,12 +1,11 @@
 iOS Devices Manager
 =======
 
-<a href="http://badge.fury.io/rb/aasm"><img src="https://badge.fury.io/rb/aasm@2x.png" alt="Gem Version" height="18"></a>
-[![Build Status](https://github.com/thomasstephane/ios_devices_manager?branch=master)](https://github.com/thomasstephane/ios_devices_manager)
+<a href="http://badge.fury.io/rb/ios_devices_manager"><img src="https://badge.fury.io/rb/ios_devices_manager@2x.png" alt="Gem Version" height="18"></a>
 
 This package contains iOS Devices Manager, a library for getting your iOS devices location and send them massages and sound notifications.
 
-## <a id="installation">Installation ##
+## Installation ##
 
 ### Manually from RubyGems.org ###
 
@@ -28,13 +27,7 @@ gem 'ios_devices_manager'
 % sudo gem install pkg/ios_devices_manager-x.y.z.gem
 ```
 
-## Latest changes ##
-
-Take a look at the
-[CHANGELOG](https://github.com/thomasstephane/ios_devices_manager/blob/master/CHANGELOG.md) for details about recent changes to the current version.
-
-
-## Usage
+## Usage ##
 
 If you are working in Ruby only, require the gem
 
@@ -66,6 +59,21 @@ my_device = my_manager.devices.first
 my_manager.play_sound(my_device, "Optional text with sound")
 ```
 
+## Latest changes ##
+
+Take a look at the
+[CHANGELOG](https://github.com/thomasstephane/ios_devices_manager/blob/master/CHANGELOG.md) for details about recent changes to the current version.
 
 
+## Questions? ##
+
+Feel free to
+
+* [create an issue on GitHub](http://github.com/thomasstephane/ios_devices_manager/issues)
+* [ask a question on StackOverflow](http://stackoverflow.com) (tag with `ios_devices_manager`)
+* send me a tweet [@thomasstephn](http://twitter.com/thomasstephn)
+
+## Maintainer ##
+
+* [Stephane Thomas](https://github.com/thomasstephane) (2014, original author)
 
